@@ -12,9 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class TimesheetController {
 
 
-    @Autowired
+
     private Timesheet timesheet;
 
+    @GetMapping
+    public void upload(){
+
+    }
 
     @PostMapping
     public Timesheet submit(){
